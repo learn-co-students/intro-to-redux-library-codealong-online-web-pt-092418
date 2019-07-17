@@ -8,6 +8,7 @@ class App extends Component {
 	};
 
 	render() {
+		// debugger
 		return (
 			<div className="App">
 				<button onClick={this.handleOnClick}>Click</button>
@@ -18,6 +19,7 @@ class App extends Component {
 }
 
 const mapStateToProps = state => {
+	// debugger
 	return {
 		items: state.items
 	};
